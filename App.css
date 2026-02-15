@@ -1,0 +1,63 @@
+:root {
+    --primary: #2563eb;
+    --admin-bg: #dc2626;
+    --user-bg: #2563eb;
+    --client-bg: #059669;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f4f7f6;
+}
+
+/* Layout Containers */
+.mobile-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 500px;
+    /* Standard mobile breakpoint */
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 80px;
+    /* Space for fixed footer */
+}
+
+/* UI Components */
+.card {
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.2s;
+}
+
+.card:active {
+    transform: scale(0.98);
+}
+
+.btn-add {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #000;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
