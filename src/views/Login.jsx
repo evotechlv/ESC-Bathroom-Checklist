@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // PASTE YOUR GOOGLE DEPLOY URL HERE
-const SHEET_API_URL = "https://script.google.com/macros/s/15zit8lVbjnSzy6322tZUYuw7FEbuP9WnMpEhnpelidYoJjrT4sjbg7ts/exec";
+const SHEET_API_URL = "https://script.google.com/macros/s/AKfycbxS0hvQrqE4aJm6L-E7BXo8JtrKhpyLFO384XM7hFpEk6BbTFAgMVgmA-A0c2i-rjnRrQ/exec";
 
 export default function Login({ onLogin }) {
   const [username, setUsername] = useState('');
