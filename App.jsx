@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Login from './views/Login';
+import Login from 'views/Login';
 import AdminView from './views/AdminView';
 import UserView from './views/UserView';
 
